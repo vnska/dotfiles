@@ -11,6 +11,7 @@
 </div>
 
 ### Install
+
 ```sh
-curl -fsSL https://raw.githubusercontent.com/0011101100101001/dotfiles/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/vnska/dotfiles/main/install.sh | bash
 ```
