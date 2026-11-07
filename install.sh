@@ -73,7 +73,7 @@ if [[ -d "$DOTFILES_DIR" ]]; then
     case "$answer" in
     o | O)
       rm -rf "$DOTFILES_DIR"
-      git clone https://github.com/0011101100101001/dotfiles.git "$DOTFILES_DIR"
+      git clone https://github.com/vnska/dotfiles.git "$DOTFILES_DIR"
       break
       ;;
     u | U)
@@ -89,7 +89,7 @@ if [[ -d "$DOTFILES_DIR" ]]; then
     esac
   done
 else
-  git clone https://github.com/0011101100101001/dotfiles.git "$DOTFILES_DIR"
+  git clone https://github.com/vnska/dotfiles.git "$DOTFILES_DIR"
 fi
 echo
 
@@ -287,7 +287,7 @@ fi
 DOTFILES_DIR="$HOME/.dotfiles"
 case "$1" in
   i)
-    curl -fsSL https://raw.githubusercontent.com/0011101100101001/dotfiles/main/install.sh | bash 
+    curl -fsSL https://raw.githubusercontent.com/vnska/dotfiles/main/install.sh | bash 
     ;;
 
   u)
