@@ -1,7 +1,13 @@
 allow_login_shell = false
 approval_policy = "never"
-model = "gpt-5.6-terra"
-model_reasoning_effort = "high"
+model = "gpt-6.1-sol"
+model_reasoning_effort = "medium"
+plan_mode_reasoning_effort = "medium"
 personality = "pragmatic"
 sandbox_node = "read-only"
 web_search = "live"
+
+[apps._default]
+enabled = false
+destructive_enabled = false
+open_world_enabled = false
